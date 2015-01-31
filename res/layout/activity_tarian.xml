@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.Tugas.kebudayaanjambi.TarianActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tarian" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tari Inai, adalah sebuah tarian sakral yang dilakukan pada saat pelaksanaan upacara adat pengantin etnis melayu timur yang berada di tanjung Jabung Timur yang disebut Malam Tari Inai.Tari Inai ditarikan oleh 5 atau 7 pasang penari yang tampil secara bergiliran dengan menggunakan property kembang lilin. 5 atau 7 pasang penari tersebut masing-masing menggambarkan tokoh-tokoh nenek moyang masyarakat Melayu Timur yang terdapat di Tanjung Jabung Timur, yaitu Hang Tuah, Hang Jebat, Hang Lekir atau Lekiu, Hang Kasturi, Dewa Safri, Dandan Setia dan Sidang Budiman sebagai tokoh yang diwakili oleh penari pria. Sedangkan penari wanita mewakili tokoh Putri Siti Zubaidah, Putri Suri Maknikam, Putri Intan Baiduri, Putri Intan Terpilih, Putri Intan Gemale, Putri Intan Teserlah dan Putri Begubang.
+ 
+                " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

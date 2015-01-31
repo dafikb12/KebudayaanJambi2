@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.Tugas.kebudayaanjambi.WisataActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/candimuarojambi" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Provinsi Jambi punya ratusan objek wisata mulai dari sejarah, alam, hingga minat khusus seperti arung jeram. Untuk mengenal dan mengeksplor provinsi ini, yuk datang ke Kemilau Sumatera 2012!Tak banyak wisatawan yang tahu tentang potensi pariwisata Provinsi Jambi. Padahal, Jambi menyuguhkan ratusan objek wisata untuk turis dengan beragam minat. Jambi punya 223 objek wisata unggulan, mulai dari kompleks candi Muaro Jambi sampai 4 Taman Nasional, tutur Gubernur Jambi, Hasan Basri Agus, dalam konferensi pers di lt 17 Gedung Sapta Pesona, Jl Medan Merdeka Barat, Jakarta Pusat, Senin (10/9/2012). Ragam potensi wisata inilah yang akan ditampilkan pada Pekan Pesona Budaya Jambi 2012. Ini adalah bagian dari rangkaian acara Kemilau Sumatera, yang akan dilaksanakan pada 11-16 Oktober 2012 di Gedung Olahraga dan Gedung Olah Seni Kota Baru Jambi. Kemilau Sumatera memamerkan budaya unggulan dari 10 provinsi di Sumatera. Masing-masing punya 1 booth untuk memperkenalkan potensi wisata, kata Hasan. Pekan Pesona Budaya Jambi 2012 akan berlangsung pada 3 hari pertama Kemilau Sumatera, yakni 11-13 Oktober 2012. Selain pameran produk budaya dan pariwisata, ada pula pertunjukan tari daerah dan lagu populer. Pada pembukaannya tanggal 11 malam, akan ada pertunjukan kolosal tari tradisional. Kalau di Jakarta ada Abang-None, kami juga ada pemilihan Bujang-Gadis Jambi 2012, kata Kepala Dinas Budaya dan Pariwisata Provinsi Jambi, Didy Wurjanto. Pekan Pesona Budaya Jambi 2012 diharapkan bisa meningkatkan wawasan dan apresiasi seni masyarakat untuk lebih mencintai budayanya sendiri. Selain itu, tentu saja memacu kreativitas insan seni dan para pelaku industri pariwisata. Pengunjung juga bisa mengenal lebih dekat pariwisata Sumatera, sebelum mengeksplorasi masing-masing tempat wisata, tutur Dirjen Ekonomi Kreatif, Ukus Kuswara. 
+
+                " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

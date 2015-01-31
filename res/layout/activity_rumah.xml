@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.Tugas.kebudayaanjambi.RumahActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rumahadatjambi" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rumah Adat Jambi - Jambi merupakan salah satu provinsi di Pulau Sumatera. Kota Jambi terbentuk ketika Kerajaan Melayu Jambi berdiri sekitar abad XVII. Terletak di sekitar tepian Sungai Batanghari, Jambi dibentuk dari berbagai kebudayaan yang berasal dari berbagai etnik, strata sosial, ekonomi, dll yang dapat dilihat dari bangunan dan suasana tepi sungai.
+                Pada tahun 70an, Gubernur Jambi pernah mengadakan sayembara Sepucuk Jambi Sembilan Rumah untuk mencari rumah adat yang menjadi jati diri daerah Jambi. Dari hasil Sayembara tersebut, yang dipilih dan dijadikan sebagai rumah adat jambi adalah Rumah Panggung Kajang Leko.
+                Rumah Panggung Kajang Leko merupakan konsep arsitektur dari Marga Bathin. Hingga sekarang orang Bathin tetap mempertahankan adat istiadat yang ditinggalkan oleh pendahulu mereka, bahkan peninggalan Kajang Leko pun masih dapat dinikmati keindahannya dan masih dipergunakan hingga kini. Salah satu perkampungan Bathin yang masih utuh hingga sekarang adalah Kampung Lamo di Rantau Panjang.
+                " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
